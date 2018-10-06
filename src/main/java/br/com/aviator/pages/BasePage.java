@@ -22,7 +22,7 @@ public class BasePage {
 		return driver;
 	}
 //dsdsr 
-	public BasePage(WebDriver driver2) {
+	public BasePage(WebDriver driver) {
 		this.driver = driver;
 			}
 	
