@@ -26,7 +26,7 @@ public class HomePage extends BasePage{
 		
 		driver.findElement(By.xpath("/html/body/header/div/div[1]/div/div[3]/form/div/a")).click();
 	
-		//implementar dps
+		//implemenstar dps
 		//String mensagem = driver.findElement(by);
 //		assertTrue(mensagem.contains("aeaeae"));
 		

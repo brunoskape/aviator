@@ -19,7 +19,7 @@ public class RunnerTest {
 	
 	
 	} 
-	
+	//
 	@Test
 	public void acessarPesquisar() throws InterruptedException {
 	new HomePage(driver).pesquisaPrincipal();
