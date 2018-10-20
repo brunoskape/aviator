@@ -17,11 +17,11 @@ public class BasePage {
 		        //System.setProperty("webdriver.gecko.driver", "C:/geckodriver.exe");
 				WebDriver driver = new ChromeDriver();
 				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-				driver.get("http://www.facebook.com");
+				driver.get("http://www.aviator.com.br");
 		
 		return driver;
 	}
-//dsdsr 
+
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
 			}
